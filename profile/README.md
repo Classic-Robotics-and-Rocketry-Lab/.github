@@ -1,49 +1,39 @@
 <h2 align="center"> <p> 🤖 🦾 Classic Robotics and Rocketry Lab 🚀 👽 </p></h2>
 
-Classic Robotics and Rocketry Lab focuses on perceptual simultaneous localization and mapping (SLAM). Main research interest and detailed robotics topics include perception-based environment mapping, intelligent sensor fusion, decision making and control of the robotic agents, robotic operation, and navigation in GPS-denied environments (e.g., underwater, urban, and indoor environments).
+The Classic Robotics and Rocketry Lab designs, builds, and deploys robots. Our current focus is on developing a robotic arm manipulator capable of precise object grasping and manipulation, as well as versatile actuators for the advancement of our quadruped robot platform.
+
 <details>
-  <summary><strong>Datasets</strong> (click to expand):</summary>
+  <summary><strong>6 DoFs Whole-arm Manipulator</strong> (click to expand):</summary>
   
-  - 📂 [Complex Urban Dataset](https://sites.google.com/view/complex-urban-dataset) : Complex Urban Dataset with Multi-level Sensors from Highly Diverse Urban Environments;
-  - 📂 [MulRan](https://sites.google.com/view/mulran-pr/home) : Multimodal Range Dataset for Urban Place Recognition;
-  - 📂 [STheReO Dataset](https://sites.google.com/view/rpmsthereo/) : Stereo Thermal Dataset for Research in Odometry and Mapping;
-  - 📂 [TRansPose](https://sites.google.com/view/transpose-dataset/) : Large-Scale Multispectral Dataset for Transparent Object;
-  - 📂 [HeLiPR Dataset](https://sites.google.com/view/heliprdataset) : Heterogeneous LiDAR Dataset for inter-LiDAR Place Recognition;
+  - 📂 [Description](https://github.com/Classic-Robotics-and-Rocketry-Lab/wam_description) : Hardware design and architecture.
+  - 📂 [Controller](https://github.com/Classic-Robotics-and-Rocketry-Lab/wam_ctrl) : Motion planning and trajectory optimization with velocity and acceleration control. <!-- and simulation -->
+  - 📂 [N/A][STheReO Dataset](https://sites.google.com/view/rpmsthereo/) : Stereo Thermal Dataset for Research in Odometry and Mapping.
+  - 📂 [N/A][TRansPose](https://sites.google.com/view/transpose-dataset/) : Large-Scale Multispectral Dataset for Transparent Objects.
+  - 📂 [N/A][HeLiPR Dataset](https://sites.google.com/view/heliprdataset) : Heterogeneous LiDAR Dataset for inter-LiDAR Place Recognition.
 </details>
 
 <details>
-  <summary><strong>Sensor Calibration</strong> (click to expand):</summary>
+  <summary><strong>Grippers</strong> (click to expand):</summary>
   
-  - 📂 [Discocal (CVPR'24)](https://github.com/chaehyeonsong/discocal) : Unbiased Estimator for Distorted Conics in Camera Calibration;
-  - 📂 [PeLiCal (ICRA'24)](https://github.com/joomeok/PeLiCal) : Targetless Extrinsic Calibration via Penetrating Lines for RGB-D Cameras with Limited Co-visibility;
+  - 📂 [Finger Gripper (IN PROGRESS)](https://github.com/Classic-Robotics-and-Rocketry-Lab/v_description) : Highly versatile gripper with large gripping surfaces, solutions for manipulating irregular shapes and intricate geometries.
+  - 📂 [Parallel Jaw Grippers (IN PROGRESS)](https://github.com/jaeykimusa) : Our most precise, prevalent, and versatile gripper, delivering meticulous force control for safe handling of fragile or delicate materials.
 </details>
 
 <details>
-  <summary><strong>LiDAR SLAM for Enhanced Resilience</strong> (click to expand):</summary>
+  <summary><strong>Wolf Mini [DEMO]</strong> (click to expand):</summary>
   
-  - 📂 [Scan Context (IROS'18)](https://github.com/gisbi-kim/scancontext_tro) : Egocentric Spatial Descriptor for Place Recognition within 3D Point Cloud Map;
-  - 📂 [Scan Context++ (T-RO'22)](https://github.com/gisbi-kim/scancontext_tro) : Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments;
-  - 📂 [MA-LIO (RA-L'23)](https://github.com/minwoo0611/MA-LIO) : Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation;
+  - 📂 [Description](https://github.com/) : Hardware deign and architecture. 
+  - 📂 [Actuator](https://github.com/) : Our most precise, prevalent, and versatile gripper, delivering meticulous force control for safe handling of fragile or delicate materials.
 </details>
 
-<details>
-  <summary><strong>Radar in Robot Navigation</strong> (click to expand):</summary>
-  
-  - 📂 [PhaRaO (ICRA'20)](https://github.com/hyesu-jang/PhaRaO_gtsam) : Direct Radar Odometry using Phase Correlation;
-  - 📂 [RaPlace (IROS'23)](https://github.com/hyesu-jang/RaPlace) : Place Recognition for Imaging Radar using Radon Transform and Mutable Threshold;
-  - 📂 [Co-RaL (IROS'24)](https://github.com/SangwooJung98/Co-RaL-Dataset) : Complementary Radar-Leg Odometry with 4-DoF Optimization and Rolling Contact;
-</details>
+## Honor Board
 
-<details>
-  <summary><strong>Thermal Camera for SLAM beyond the Visible Spectrum</strong> (click to expand):</summary>
-  
-  - 📂 [sRGB-TIR (ICRA'23)](https://github.com/RPM-Robotics-Lab/sRGB-TIR) : Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels;
-  - 📂 [Fieldscale (RA-L'24)](https://github.com/HyeonJaeGil/fieldscale) : Locality-Aware Field-based Adaptive Rescaling for Thermal Infrared Image;
-</details>
+We gratefully acknowledge the support and contributions from the following individuals and organizations:
 
-<details>
-  <summary><strong>Vision-based Robot Manipulation</strong> (click to expand):</summary>
-  
-  - 📂 [PrimA6D (RA-L'20)](https://github.com/MyungHwanJeon/PrimA6D) : Rotational Primitive Reconstruction for Enhanced and Robust 6D Pose Estimation;
-  - 📂 [PrimA6D++ (RA-L'22)](https://github.com/MyungHwanJeon/PrimA6D) : Ambiguity-Aware Multi-Object Pose Optimization for Visually-Assisted Robot Manipulation;
-</details>
+| Name                                      | Contribution                 | Contact/Link                                     |
+|-------------------------------------------|------------------------------|--------------------------------------------------|
+| Dr. Edgar Lobaton from ARoS Lab           | Manipulator motors & Mentor  | [ARoS Lab](https://research.ece.ncsu.edu/aros/)  |
+| Pre Inguva                                | Organization Advisor         |                                                  |
+| Dr. Hooman Tafreshi from PMMF Laboratory  | Support                      | [PMMF Laboratory](https://mae.ncsu.edu/pmmf/)    |
+
+<!-- END -->
