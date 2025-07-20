@@ -5,6 +5,11 @@ The Classic Robotics and Rocketry Lab designs, builds, and deploys robots. Our c
 <details>
   <summary><strong>6 DoFs Whole-arm Manipulator</strong> (click to expand):</summary>
   
+  > **Note:**  
+  > Most of our GitHub repositories are private to protect our early-stage projects, collaborative work with mentors and students, and to ensure proper handling as we explore new technologies. Access is limited to team members.  
+  >  
+  > For inquiries or access requests, please contact us via our primary email.  
+  
   - 📂 [Description](https://github.com/Classic-Robotics-and-Rocketry-Lab/wam_description) : Hardware design and architecture.
   - 📂 [Controller](https://github.com/Classic-Robotics-and-Rocketry-Lab/wam_ctrl) : Motion planning and trajectory optimization with velocity and acceleration control. <!-- and simulation -->
   - 📂 [N/A][STheReO Dataset](https://sites.google.com/view/rpmsthereo/) : Stereo Thermal Dataset for Research in Odometry and Mapping.
@@ -23,8 +28,9 @@ The Classic Robotics and Rocketry Lab designs, builds, and deploys robots. Our c
   <summary><strong>Wolf Mini [DEMO]</strong> (click to expand):</summary>
   
   - 📂 [Description](https://github.com/) : Hardware deign and architecture. 
-  - 📂 [Actuator](https://github.com/) : Our most precise, prevalent, and versatile gripper, delivering meticulous force control for safe handling of fragile or delicate materials.
+  - 📂 [Actuator](https://github.com/) : Developing actuators with high torque power and minimum backflash.
 </details>
+
 
 ## Honor Board
 
@@ -33,7 +39,7 @@ We gratefully acknowledge the support and contributions from the following indiv
 | Name                                      | Contribution                 | Contact/Link                                     |
 |-------------------------------------------|------------------------------|--------------------------------------------------|
 | Dr. Edgar Lobaton from ARoS Lab           | Manipulator motors & Mentor  | [ARoS Lab](https://research.ece.ncsu.edu/aros/)  |
-| Pre Inguva                                | Organization Advisor         |                                                  |
+| Pre Inguva, PhD Candidate                 | Organization Advisor         |                                                  |
 | Dr. Hooman Tafreshi from PMMF Laboratory  | Support                      | [PMMF Laboratory](https://mae.ncsu.edu/pmmf/)    |
 
 <!-- END -->
